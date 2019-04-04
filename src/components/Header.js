@@ -11,6 +11,7 @@ const Header = (props) => (
                 <h1>Application: Sagar Desai</h1>
                 <p>Software Engineer, Full-Stack <br />
                 Please find my answers to the questions outlined in the <a href="https://angel.co/wefunder/jobs/158985-software-engineer-full-stack">application</a> below.</p>
+
             </div>
         </div>
         <nav>
@@ -19,6 +20,7 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Works</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Survival Skill</a></li>
+
             </ul>
         </nav>
     </header>
