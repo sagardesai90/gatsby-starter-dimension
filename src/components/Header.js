@@ -9,16 +9,16 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Application: Sagar Desai</h1>
-                <p>SF Full Stack Engineer <br />
-                Please find my answers to the four questions outlined in the <a href="https://we.are.expensify.com/sf-full-stack-engineer">application</a> below.</p>
+                <p>Software Engineer, Full-Stack <br />
+                Please find my answers to the questions outlined in the <a href="https://angel.co/wefunder/jobs/158985-software-engineer-full-stack">application</a> below.</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Why Wefunder</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Works</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Survival Skill</a></li>
             </ul>
         </nav>
     </header>
