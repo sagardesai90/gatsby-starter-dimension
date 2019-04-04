@@ -9,16 +9,18 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Application: Sagar Desai</h1>
-                <p>Mobile PM, Elsa <br />
-                Please find my answers to the four questions outlined in the <a href="https://jobs.lever.co/atlassian/48905809-1111-46f6-b2bc-3bef77d96f32/apply">application</a> below.</p>
+                <p>Software Engineer, Full-Stack <br />
+                Please find my answers to the questions outlined in the <a href="https://angel.co/wefunder/jobs/158985-software-engineer-full-stack">application</a> below.</p>
+
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Why this opportunity')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Location')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Why Wefunder</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Works</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Survival Skill</a></li>
+
             </ul>
         </nav>
     </header>
